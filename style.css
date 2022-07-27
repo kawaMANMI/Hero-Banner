@@ -1,4 +1,5 @@
 body {
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -38,21 +39,28 @@ ul.nav li {
     padding: 0 2em;
     font-size: 1em;
 }
+ul.nav li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 .main-container {
     width: 100%;
     height: 90vh;
     float: left;
-    background-color: aquamarine;
+    background-image: linear-gradient(-90deg, rgb(78, 137, 248), rgb(255, 255, 72));;
     position: relative;
 
 }
 
 .main-container p {
-    position: absolute;
-    top: 50%;
     width: 50%;
+    position: absolute;
+    top: 25%;
     right: 25%;
+    font-size: 2em;
+    text-align: center;
 }
 
 .icons {
@@ -83,6 +91,9 @@ ul.nav li {
 }
 .case-box img {
     width: 100%;
+}
+.case-box p {
+    line-height: 1.6em;
 }
 
 .case-heading {
