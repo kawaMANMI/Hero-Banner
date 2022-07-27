@@ -16,7 +16,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center; 
+    align-content: center;
 }
 
 #logo {
@@ -39,17 +39,24 @@ ul.nav li {
     padding: 0 2em;
     font-size: 1em;
 }
+
 ul.nav li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+
+ul.nav li a:hover {
+    color: rgb(126, 0, 0);
+}
+
 .main-container {
     width: 100%;
     height: 90vh;
     float: left;
-    background-image: linear-gradient(-90deg, rgb(78, 137, 248), rgb(255, 255, 72));;
+    background-image: linear-gradient(-90deg, rgb(78, 137, 248), rgb(255, 255, 72));
+    ;
     position: relative;
 
 }
@@ -89,13 +96,18 @@ ul.nav li a {
     width: 30%;
     float: left;
 }
+
 .case-box img {
     width: 100%;
 }
+
 .case-box p {
     line-height: 1.6em;
 }
 
 .case-heading {
     flex-basis: 100%;
+    font-size: 2em;
+    text-align: center;
+
 }
