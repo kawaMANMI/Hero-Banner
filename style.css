@@ -95,6 +95,7 @@ ul.nav li a:hover {
 .case-box {
     width: 30%;
     float: left;
+    background-color: rgb(78, 137, 248);
 }
 
 .case-box img {
@@ -103,6 +104,9 @@ ul.nav li a:hover {
 
 .case-box p {
     line-height: 1.6em;
+}
+.case-box h3, .case-box p {
+    padding: 0px 15px;
 }
 
 .case-heading {
