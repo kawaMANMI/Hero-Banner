@@ -117,12 +117,15 @@ ul.nav li a:hover {
 }
 .case-box img {
     width: 100%;
+    position: relative;
 }
 
 .case-box p {
     line-height: 1.6em;
 }
-.case-box h3, .case-box p {
+
+.case-box h3,
+.case-box p {
     padding: 0px 15px;
 }
 
@@ -131,4 +134,9 @@ ul.nav li a:hover {
     font-size: 2em;
     text-align: center;
 
+}
+
+.text-pic1 {
+    position: absolute;
+    z-index: 1;
 }
